@@ -1,0 +1,14 @@
+name: generators
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  get_it:
+  models:
+    path: ../models
+  rules:
+    path: ../rules
+  dart_code_metrics:
+# flutter_bloc:
